@@ -95,6 +95,8 @@ class TaskTimerViewModel(application: Application) : AndroidViewModel(applicatio
         }
     }
 
+    //adding new comment just to train merging branches
+
     fun timeTask(task: Tasks){
         Log.d(TAG, "timeTask: starts")
         val timingRecord = currentTiming  //Using local variable to avoid problems with SmartCast
